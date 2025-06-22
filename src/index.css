@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #fafafa;
-  margin-left: 350px;
-  margin-right: 350px;
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #fafafa;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
 }
 
 @layer base {

@@ -4,12 +4,12 @@ import { ChevronRight } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="my-44 flex flex-col space-y-4 items-center">
-      <Badge>Built by @yshkale</Badge>
-      <h1 className="text-7xl tracking-tighter font-semibold text-center">
+    <section className="my-28 lg:my-44 flex flex-col space-y-4 items-center">
+      <Badge>Built by @yashkale</Badge>
+      <h1 className="text-4xl lg:text-7xl tracking-tighter font-semibold text-center">
         UI library for <br /> Design Engineers
       </h1>
-      <p className="text-neutral-500 max-w-lg text-center">
+      <p className="text-neutral-500 max-w-sm lg:max-w-lg text-center text-sm lg:text-base">
         A collection of 15+ beautifully crafted, open-source UI components and
         effects. Built using React, TypeScript, Tailwind CSS, and Framer Motion.
       </p>
@@ -20,7 +20,7 @@ export const Hero = () => {
           <ChevronRight size={16} className="pt-0.5" />
         </Button>
         <Button className="flex items-center my-4 gap-1" variant="secondary">
-          Installation
+          Docs
         </Button>
       </div>
     </section>
