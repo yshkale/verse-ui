@@ -11,7 +11,7 @@ export const Hero = () => {
       </h1>
       <p className="text-neutral-500 max-w-sm lg:max-w-lg text-center text-sm lg:text-base">
         A collection of 15+ beautifully crafted, open-source UI components and
-        effects. Built using React, TypeScript, Tailwind CSS, and Framer Motion.
+        effects. Built using React, TypeScript, Tailwind CSS, and Motion.
       </p>
 
       <div className="flex items-center gap-4">

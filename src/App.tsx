@@ -6,6 +6,7 @@ function App() {
   return (
     <Routes>
       <Route index element={<Landing />} />
+      <Route path="*" element={<Landing />} />
     </Routes>
   );
 }
