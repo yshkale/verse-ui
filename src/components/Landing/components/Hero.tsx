@@ -1,8 +1,19 @@
 import { Badge } from "@/components/Design/Badge";
 import { Button } from "@/components/Design/Button";
 import { ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleBrowseCollections = () => {
+    navigate(`/app/components`);
+  };
+
+  const handleDocs = () => {
+    navigate("/app/getting-started");
+  };
+
   return (
     <section className="my-28 lg:my-44 flex flex-col space-y-4 items-center">
       <Badge>Built by @yashkale</Badge>
@@ -15,11 +26,19 @@ export const Hero = () => {
       </p>
 
       <div className="flex items-center gap-4">
-        <Button className="flex items-center my-4 gap-1" variant="primary">
+        <Button
+          className="flex items-center my-4 gap-1"
+          variant="primary"
+          onClick={handleBrowseCollections}
+        >
           Browse components
           <ChevronRight size={16} className="pt-0.5" />
         </Button>
-        <Button className="flex items-center my-4 gap-1" variant="secondary">
+        <Button
+          className="flex items-center my-4 gap-1"
+          variant="secondary"
+          onClick={handleDocs}
+        >
           Docs
         </Button>
       </div>

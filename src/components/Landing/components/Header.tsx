@@ -1,9 +1,11 @@
 export const Header = () => {
   return (
     <header className="px-4 lg:px-0 py-4 flex items-center justify-between">
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-1">
         <img src="/favicon.svg" alt="logo" />
-        <p className="font-semibold">verse ui</p>
+        <a className="font-semibold" href="/">
+          verse ui
+        </a>
       </div>
 
       <a

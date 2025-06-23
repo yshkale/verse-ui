@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Getting Started",
+    "href": "getting-started",
+    "subMenu": [
+      {
+        "label": "Introduction",
+        "href": "introduction"
+      },
+      {
+        "label": "Installation",
+        "href": "installation"
+      }
+    ]
+  },
+  {
+    "label": "Components",
+    "href": "components",
+    "subMenu": [
+      {
+        "label": "Button",
+        "href": "button"
+      },
+      {
+        "label": "Badge",
+        "href": "badge"
+      }
+    ]
+  }
+]
