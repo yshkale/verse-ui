@@ -2,6 +2,7 @@ import { Routes, Route, useParams } from "react-router-dom";
 import { Navigation } from "../Navigation";
 import { Header } from "../Landing/components/Header";
 import { ContentRenderer } from "./components/ContentRenderer";
+import { RightNav } from "./components/RightNav";
 
 export const MainApp = () => {
   const { section } = useParams();
@@ -9,7 +10,7 @@ export const MainApp = () => {
   return (
     <main className="min-h-screen">
       <Header />
-      <div className="flex gap-28 mt-8 px-4 md:px-0">
+      <div className="flex justify-between gap-20 mt-8 px-4 md:px-0">
         <Navigation currentSection={section} />
         <div className="flex-1 w-full md:w-auto">
           <Routes>
@@ -29,6 +30,7 @@ export const MainApp = () => {
             />
           </Routes>
         </div>
+        <RightNav />
       </div>
     </main>
   );

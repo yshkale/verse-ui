@@ -29,17 +29,17 @@ export const Hero = () => {
         <Button
           className="flex items-center my-4 gap-1"
           variant="primary"
-          onClick={handleBrowseCollections}
+          onClick={handleDocs}
         >
-          Browse components
+          Get started
           <ChevronRight size={16} className="pt-0.5" />
         </Button>
         <Button
           className="flex items-center my-4 gap-1"
           variant="secondary"
-          onClick={handleDocs}
+          onClick={handleBrowseCollections}
         >
-          Docs
+          Browse components
         </Button>
       </div>
     </section>

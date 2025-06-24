@@ -45,7 +45,7 @@ export const Navigation = ({ currentSection }: any) => {
       {navigationData.map((item, index) => (
         <li key={index} className="space-y-1.5">
           <div
-            className={`font-semibold ${
+            className={`font-semibold mb-2 ${
               isActiveSection(item.href)
                 ? "text-indigo-600"
                 : "text-neutral-900"
@@ -89,7 +89,7 @@ export const Navigation = ({ currentSection }: any) => {
       </button>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:block w-64 flex-shrink-0">
+      <nav className="hidden md:block w-52 flex-shrink-0">
         <NavigationContent />
       </nav>
 
