@@ -82,7 +82,7 @@ export const Navigation = ({ currentSection }: any) => {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsMobileMenuOpen(true)}
-        className="md:hidden fixed top-4 left-4 z-40 p-2 rounded-md bg-white shadow-lg border border-neutral-200 hover:bg-neutral-50 transition-colors"
+        className="md:hidden fixed top-3 right-4 z-40 p-2"
         aria-label="Open navigation menu"
       >
         <Menu size={20} className="text-neutral-700" />

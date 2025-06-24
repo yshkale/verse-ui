@@ -9,7 +9,7 @@ export const Header = () => {
       </div>
 
       <a
-        className="cursor-pointer"
+        className="cursor-pointer hidden md:block"
         href="https://github.com/yshkale/verse-ui"
         target="_blank"
       >
