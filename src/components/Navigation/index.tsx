@@ -15,28 +15,28 @@ export const Navigation = ({ currentSection }: any) => {
   };
 
   return (
-    <nav className="w-64 flex-shrink-0">
+    <nav className="w-48 flex-shrink-0">
       <ul className="space-y-6 text-sm">
         {navigationData.map((item, index) => (
           <li key={index} className="space-y-1.5">
             <div
               className={`font-semibold ${
                 isActiveSection(item.href)
-                  ? "text-blue-600"
+                  ? "text-indigo-600"
                   : "text-neutral-900"
               }`}
             >
               {item.label}
             </div>
             {item.subMenu && (
-              <ul className="ml-3 space-y-1">
+              <ul className="space-y-1">
                 {item.subMenu.map((subItem, subIndex) => (
                   <li key={subIndex}>
                     <Link
                       to={`/app/${item.href}/${subItem.href}`}
                       className={`block px-2 py-1 rounded transition-colors duration-150 ${
                         isActiveLink(item.href, subItem.href)
-                          ? "bg-blue-50 text-blue-700 font-medium"
+                          ? "bg-neutral-100 text-neutral-700 font-medium"
                           : "text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50"
                       }`}
                     >

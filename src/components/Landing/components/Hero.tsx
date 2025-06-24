@@ -7,11 +7,11 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   const handleBrowseCollections = () => {
-    navigate(`/app/components`);
+    navigate(`/app/components/button`);
   };
 
   const handleDocs = () => {
-    navigate("/app/getting-started");
+    navigate("/app/getting-started/introduction");
   };
 
   return (

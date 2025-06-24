@@ -10,8 +10,8 @@ export const Introduction = () => {
         </h2>
         <p className="text-base text-neutral-600 max-w-2xl">
           Verse UI is a collection of minimal and aesthetic components made for
-          developers who loves to design or designers who loves to build and
-          want their apps to look beautiful and clean.
+          developers who love to design or designers who love to build and want
+          their apps to look beautiful and clean.
         </p>
       </div>
 
