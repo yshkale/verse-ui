@@ -7,11 +7,11 @@ export const MainApp = () => {
   const { section } = useParams();
 
   return (
-    <main>
+    <main className="min-h-screen">
       <Header />
-      <div className="flex gap-28 mt-8">
+      <div className="flex gap-28 mt-8 px-4 md:px-0">
         <Navigation currentSection={section} />
-        <div className="flex-1">
+        <div className="flex-1 w-full md:w-auto">
           <Routes>
             <Route
               path="introduction"
