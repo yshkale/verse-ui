@@ -4,12 +4,14 @@
 // import { Button } from "../Content/button";
 // import { Badge } from "../Content/badge";
 
+import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { Introduction } from "@/components/Content/introduction";
 
 export const ContentRenderer = ({ type, section }: any) => {
   // Component mapping for better maintainability
   const componentMap: any = {
     introduction: Introduction,
+    button: ButtonIntro,
   };
 
   const Component = componentMap[type];

@@ -1,19 +1,17 @@
 import { Breadcrumb } from "../Breadcrumb";
+import { Intro } from "../MainApp/components/Intro";
 
 export const Introduction = () => {
   return (
     <section className="flex flex-col">
       <Breadcrumb links={["Docs", "Introduction"]} />
-      <div className="my-8 space-y-2">
-        <h2 className="text-4xl font-semibold tracking-tighter">
-          Introduction
-        </h2>
-        <p className="text-base text-neutral-600 max-w-2xl">
+      <Intro
+        title="Introduction"
+        description="
           Verse UI is a collection of minimal and aesthetic components made for
           developers who love to design or designers who love to build and want
-          their apps to look beautiful and clean.
-        </p>
-      </div>
+          their apps to look beautiful and clean."
+      />
 
       <div className="my-2 space-y-2">
         <h2 className="text-xl font-semibold tracking-tighter">
