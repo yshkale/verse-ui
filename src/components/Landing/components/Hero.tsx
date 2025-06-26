@@ -16,7 +16,7 @@ export const Hero = () => {
 
   return (
     <section className="my-28 lg:my-44 flex flex-col space-y-4 items-center">
-      <Badge>Built on top of shadcn</Badge>
+      <Badge variant={"secondary"}>Built on top of shadcn</Badge>
       <h1 className="text-4xl lg:text-7xl tracking-tighter font-semibold text-center">
         UI library for <br /> Design Engineers
       </h1>

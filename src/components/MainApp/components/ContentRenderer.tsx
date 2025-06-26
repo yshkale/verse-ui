@@ -4,6 +4,7 @@
 // import { Button } from "../Content/button";
 // import { Badge } from "../Content/badge";
 
+import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { Introduction } from "@/components/Content/introduction";
 
@@ -12,6 +13,7 @@ export const ContentRenderer = ({ type, section }: any) => {
   const componentMap: any = {
     introduction: Introduction,
     button: ButtonIntro,
+    badge: BadgeIntro,
   };
 
   const Component = componentMap[type];
