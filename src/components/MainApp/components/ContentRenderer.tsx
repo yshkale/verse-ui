@@ -4,16 +4,20 @@
 // import { Button } from "../Content/button";
 // import { Badge } from "../Content/badge";
 
+import { AlertInfo } from "@/components/Content/AlertInfo";
 import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
+import { CardInfo } from "@/components/Content/CardInfo";
 import { Introduction } from "@/components/Content/introduction";
 
 export const ContentRenderer = ({ type, section }: any) => {
   // Component mapping for better maintainability
   const componentMap: any = {
     introduction: Introduction,
+    alert: AlertInfo,
     button: ButtonIntro,
     badge: BadgeIntro,
+    card: CardInfo,
   };
 
   const Component = componentMap[type];

@@ -18,12 +18,20 @@
     "href": "components",
     "subMenu": [
       {
+        "label": "Alert",
+        "href": "alert"
+      },
+      {
         "label": "Button",
         "href": "button"
       },
       {
         "label": "Badge",
         "href": "badge"
+      },
+      {
+        "label": "Card",
+        "href": "card"
       }
     ]
   }

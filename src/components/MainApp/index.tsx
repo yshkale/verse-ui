@@ -22,8 +22,10 @@ export const MainApp = () => {
               path="installation"
               element={<ContentRenderer type="installation" />}
             />
+            <Route path="alert" element={<ContentRenderer type="alert" />} />
             <Route path="button" element={<ContentRenderer type="button" />} />
             <Route path="badge" element={<ContentRenderer type="badge" />} />
+            <Route path="card" element={<ContentRenderer type="card" />} />
             <Route
               index
               element={<ContentRenderer type="default" section={section} />}
