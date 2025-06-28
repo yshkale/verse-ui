@@ -9,6 +9,8 @@ import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { CardInfo } from "@/components/Content/CardInfo";
 import { Introduction } from "@/components/Content/introduction";
+import { ProgressInfo } from "@/components/Content/ProgressInfo";
+import { SkeletonInfo } from "@/components/Content/SkeletonInfo";
 
 export const ContentRenderer = ({ type, section }: any) => {
   // Component mapping for better maintainability
@@ -18,6 +20,8 @@ export const ContentRenderer = ({ type, section }: any) => {
     button: ButtonIntro,
     badge: BadgeIntro,
     card: CardInfo,
+    progress: ProgressInfo,
+    skeleton: SkeletonInfo,
   };
 
   const Component = componentMap[type];

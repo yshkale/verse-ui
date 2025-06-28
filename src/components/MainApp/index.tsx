@@ -27,6 +27,14 @@ export const MainApp = () => {
             <Route path="badge" element={<ContentRenderer type="badge" />} />
             <Route path="card" element={<ContentRenderer type="card" />} />
             <Route
+              path="skeleton"
+              element={<ContentRenderer type="skeleton" />}
+            />
+            <Route
+              path="progress"
+              element={<ContentRenderer type="progress" />}
+            />
+            <Route
               index
               element={<ContentRenderer type="default" section={section} />}
             />

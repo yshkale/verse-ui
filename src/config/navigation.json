@@ -32,6 +32,14 @@
       {
         "label": "Card",
         "href": "card"
+      },
+      {
+        "label": "Progress",
+        "href": "progress"
+      },
+      {
+        "label": "Skeleton",
+        "href": "skeleton"
       }
     ]
   }
