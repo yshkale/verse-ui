@@ -12,6 +12,7 @@ import { CardInfo } from "@/components/Content/CardInfo";
 import { Introduction } from "@/components/Content/introduction";
 import { ProgressInfo } from "@/components/Content/ProgressInfo";
 import { SkeletonInfo } from "@/components/Content/SkeletonInfo";
+import { TooltipInfo } from "@/components/Content/TooltipInfo";
 
 export const ContentRenderer = ({ type, section }: any) => {
   // Component mapping for better maintainability
@@ -24,6 +25,7 @@ export const ContentRenderer = ({ type, section }: any) => {
     card: CardInfo,
     progress: ProgressInfo,
     skeleton: SkeletonInfo,
+    tooltip: TooltipInfo,
   };
 
   const Component = componentMap[type];

@@ -39,6 +39,10 @@ export const MainApp = () => {
               element={<ContentRenderer type="progress" />}
             />
             <Route
+              path="tooltip"
+              element={<ContentRenderer type="tooltip" />}
+            />
+            <Route
               index
               element={<ContentRenderer type="default" section={section} />}
             />
