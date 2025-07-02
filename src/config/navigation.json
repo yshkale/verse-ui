@@ -48,6 +48,10 @@
       {
         "label": "Tooltip",
         "href": "tooltip"
+      },
+      {
+        "label": "Select",
+        "href": "select"
       }
     ]
   }

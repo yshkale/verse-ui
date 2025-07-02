@@ -11,6 +11,7 @@ import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { CardInfo } from "@/components/Content/CardInfo";
 import { Introduction } from "@/components/Content/introduction";
 import { ProgressInfo } from "@/components/Content/ProgressInfo";
+import { SelectInfo } from "@/components/Content/SelectInfo";
 import { SkeletonInfo } from "@/components/Content/SkeletonInfo";
 import { TooltipInfo } from "@/components/Content/TooltipInfo";
 
@@ -26,6 +27,7 @@ export const ContentRenderer = ({ type, section }: any) => {
     progress: ProgressInfo,
     skeleton: SkeletonInfo,
     tooltip: TooltipInfo,
+    select: SelectInfo,
   };
 
   const Component = componentMap[type];

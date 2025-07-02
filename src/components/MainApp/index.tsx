@@ -42,6 +42,7 @@ export const MainApp = () => {
               path="tooltip"
               element={<ContentRenderer type="tooltip" />}
             />
+            <Route path="select" element={<ContentRenderer type="select" />} />
             <Route
               index
               element={<ContentRenderer type="default" section={section} />}
