@@ -38,6 +38,7 @@ export const MainApp = () => {
               path="progress"
               element={<ContentRenderer type="progress" />}
             />
+            <Route path="input" element={<ContentRenderer type="input" />} />
             <Route
               path="tooltip"
               element={<ContentRenderer type="tooltip" />}

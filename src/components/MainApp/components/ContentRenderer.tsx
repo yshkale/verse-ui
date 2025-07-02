@@ -9,6 +9,7 @@ import { AlertInfo } from "@/components/Content/AlertInfo";
 import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { CardInfo } from "@/components/Content/CardInfo";
+import { InputInfo } from "@/components/Content/InputInfo";
 import { Introduction } from "@/components/Content/introduction";
 import { ProgressInfo } from "@/components/Content/ProgressInfo";
 import { SelectInfo } from "@/components/Content/SelectInfo";
@@ -28,6 +29,7 @@ export const ContentRenderer = ({ type, section }: any) => {
     skeleton: SkeletonInfo,
     tooltip: TooltipInfo,
     select: SelectInfo,
+    input: InputInfo,
   };
 
   const Component = componentMap[type];

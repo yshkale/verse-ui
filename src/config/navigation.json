@@ -46,12 +46,16 @@
         "href": "skeleton"
       },
       {
+        "label": "Select",
+        "href": "select"
+      },
+      {
         "label": "Tooltip",
         "href": "tooltip"
       },
       {
-        "label": "Select",
-        "href": "select"
+        "label": "Input",
+        "href": "input"
       }
     ]
   }
