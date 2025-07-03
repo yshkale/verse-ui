@@ -10,6 +10,7 @@ import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { CardInfo } from "@/components/Content/CardInfo";
 import { InputInfo } from "@/components/Content/InputInfo";
+import { InstallationInfo } from "@/components/Content/InstallationInfo";
 import { Introduction } from "@/components/Content/introduction";
 import { ProgressInfo } from "@/components/Content/ProgressInfo";
 import { SelectInfo } from "@/components/Content/SelectInfo";
@@ -20,6 +21,8 @@ export const ContentRenderer = ({ type, section }: any) => {
   // Component mapping for better maintainability
   const componentMap: any = {
     introduction: Introduction,
+    installation: InstallationInfo,
+    //
     alert: AlertInfo,
     alertDialog: AlertDialogInfo,
     button: ButtonIntro,
