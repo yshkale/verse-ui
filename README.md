@@ -1,54 +1,23 @@
-# React + TypeScript + Vite
+# Verse UI Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, customizable React component library built with TypeScript, Tailwind CSS, and Vite. This library provides a collection of beautifully designed, accessible, and highly customizable UI components for modern web applications built on top of radix and shadcn UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Aesthetic Design** - Clean, contemporary components with thoughtful UX
+- 🔧 **Highly Customizable** - Tailored styling with Tailwind CSS and class variance authority
+- 📱 **Responsive** - Mobile-first design approach
+- ♿ **Accessible** - Built with accessibility in mind using Radix UI primitives
+- 🎯 **TypeScript** - Full type safety and excellent developer experience
+- 🚀 **Tree Shakeable** - Import only what you need
+- 📖 **Interactive Documentation** - Built-in component showcase with copy-paste functionality
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React 18** - Modern React with hooks and concurrent features
+- **TypeScript** - Type-safe component development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Fast build tool and development server
+- **Radix UI** - Unstyled, accessible UI primitives
+- **Class Variance Authority** - Type-safe component variants
+- **Lucide React** - Beautiful, customizable icons
