@@ -38,6 +38,10 @@
         "href": "card"
       },
       {
+        "label": "Input",
+        "href": "input"
+      },
+      {
         "label": "Progress",
         "href": "progress"
       },
@@ -52,10 +56,6 @@
       {
         "label": "Tooltip",
         "href": "tooltip"
-      },
-      {
-        "label": "Input",
-        "href": "input"
       }
     ]
   }

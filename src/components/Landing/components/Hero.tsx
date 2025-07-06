@@ -1,5 +1,5 @@
-import { Badge } from "@/components/Design/Badge";
-import { Button } from "@/components/Design/Button";
+import { Badge } from "@/components/Design/badge";
+import { Button } from "@/components/Design/button";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router";
 

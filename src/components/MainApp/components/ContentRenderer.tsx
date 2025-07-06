@@ -4,7 +4,7 @@
 // import { Button } from "../Content/button";
 // import { Badge } from "../Content/badge";
 
-import { AlertDialogInfo } from "@/components/Content/AlertDialog";
+import { AlertDialogInfo } from "@/components/Content/AlertDialogInfo";
 import { AlertInfo } from "@/components/Content/AlertInfo";
 import { BadgeIntro } from "@/components/Content/BadgeInfo";
 import { ButtonIntro } from "@/components/Content/ButtonIntro";
