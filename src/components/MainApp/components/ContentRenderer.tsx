@@ -11,7 +11,7 @@ import { ButtonIntro } from "@/components/Content/ButtonIntro";
 import { CardInfo } from "@/components/Content/CardInfo";
 import { InputInfo } from "@/components/Content/InputInfo";
 import { InstallationInfo } from "@/components/Content/InstallationInfo";
-import { Introduction } from "@/components/Content/introduction";
+import { Introduction } from "@/components/Content/Introduction";
 import { ProgressInfo } from "@/components/Content/ProgressInfo";
 import { SelectInfo } from "@/components/Content/SelectInfo";
 import { SkeletonInfo } from "@/components/Content/SkeletonInfo";
