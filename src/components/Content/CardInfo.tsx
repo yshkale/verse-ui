@@ -8,7 +8,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "../Design/Card";
+} from "../Design/card";
 
 import { InstallationShowcase } from "../InstallationShowcase";
 import { Intro } from "../MainApp/components/Intro";
