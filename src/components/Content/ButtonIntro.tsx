@@ -89,7 +89,7 @@ export { Button, buttonVariants };
 
       <ComponentShowcase
         preview={
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-col md:flex-row">
             <Button variant="primary">Primary</Button>
             <Button variant="secondary">Secondary</Button>
             <Button variant="destructive">Destructive</Button>

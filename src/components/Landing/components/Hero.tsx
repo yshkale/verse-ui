@@ -7,7 +7,7 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   const handleBrowseCollections = () => {
-    navigate(`/app/components/button`);
+    navigate(`/app/components/alert`);
   };
 
   const handleDocs = () => {

@@ -374,7 +374,7 @@ export const AlertDialogInfo = () => {
 
       <ComponentShowcase
         preview={
-          <section className="flex justify-around gap-6">
+          <section className="flex justify-around gap-6 flex-col md:flex-row">
             <AlertDialog>
               <AlertDialogTrigger asChild>
                 <Button variant="primary">Show Info Dialog</Button>

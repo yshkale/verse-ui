@@ -54,7 +54,7 @@ export const ComponentShowcase = ({ preview, code, className = "" }: Props) => {
       {/* Content Area */}
       <div className="border border-neutral-200 rounded-xl overflow-hidden bg-white">
         {activeTab === "preview" ? (
-          <div className="p-12 flex items-center justify-center min-h-[300px] bg-gradient-to-br from-neutral-50 to-white">
+          <div className="p-2 md:p-12 flex items-center justify-center min-h-[300px] bg-gradient-to-br from-neutral-50 to-white">
             <div className="flex flex-col items-center gap-4">{preview}</div>
           </div>
         ) : (
@@ -82,7 +82,7 @@ export const ComponentShowcase = ({ preview, code, className = "" }: Props) => {
                 )}
               </button>
             </div>
-            <div className="px-6 py-4 overflow-x-auto">
+            <div className="p-2 md:px-6 md:py-4 overflow-x-auto">
               <pre className="text-sm text-neutral-800 leading-relaxed">
                 <code>{code}</code>
               </pre>

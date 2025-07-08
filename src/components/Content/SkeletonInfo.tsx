@@ -144,7 +144,7 @@ export const SkeletonInfo = () => {
 
       <ComponentShowcase
         preview={
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-[240px] py-4 md:py-0 md:w-full">
             <div className="space-y-3 lg:min-w-44">
               <SkeletonCard />
             </div>

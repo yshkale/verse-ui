@@ -139,7 +139,7 @@ export const ProgressInfo = () => {
 
       <ComponentShowcase
         preview={
-          <div className="space-y-6 lg:min-w-72">
+          <div className="space-y-6 w-[240px] lg:min-w-72">
             <div className="space-y-4">
               <div className="flex gap-2">
                 <Button
